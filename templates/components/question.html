@@ -1,0 +1,17 @@
+{% load static %}{% load i18n %}
+<h2>{% trans 'Perqunta' %}</h2>
+<hr>
+<small style="label label-error"><b>{{ pergunta.get_level_display }} - {{ pergunta.category|default_if_none:"" }}
+    - {{ pergunta.country|default_if_none:"" }}</b></small>
+<hr>
+<p>{{ pergunta }}</p>
+{% if pergunta.image %}
+    <center><image src="{{ pergunta.image.url }}" alt=""></image></center>
+{% endif %}
+<ul class="list-group">
+    {% for resp in pergunta.Resposta_set.all %}
+    <li  class="list-group-item"><a href="#" class="btn btn-info btn-group-lg" onclick="responder({{ resp.id }})">{{ resp.text_answer }}</a></li>
+    {% endfor %}
+</ul>
+<br><br>
+<a class="btn btn-info btn-lg rounded-pill portfolio-modal-dismiss" href="#"><i class="fa fa-close"></i>{% trans 'Fechar' %}</a>

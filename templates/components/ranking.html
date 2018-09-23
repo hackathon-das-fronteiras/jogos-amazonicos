@@ -1,0 +1,17 @@
+{% load static %}{% load i18n %}
+{% if user.is_authenticated and user.RespUser_set.all.count > 0%}
+<h4>{% blocktrans %}Você acertou {{ ranking.1.1 }} de {{ ranking.0 }}!</h4>{% endblocktrans %}
+<br><br>
+{% endif %}
+<h2>Ranking</h2>
+<hr>
+{% if has_rank %}
+<ol>
+    {% for u, a in ranking.2 %}
+        <li>{{ u }} - Acerto(s): {{ a }}</li>
+    {% endfor %}
+</ol>
+{% else %}
+    <h4>{% trans 'Ninguém jogou ainda' %}</h4>
+{% endif %}
+<a class="btn btn-info btn-lg rounded-pill portfolio-modal-dismiss" href="#"><i class="fa fa-close"></i>{% trans 'Fechar' %}</a>

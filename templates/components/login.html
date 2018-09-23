@@ -1,0 +1,27 @@
+{% load static %}{% load i18n %}
+<h2>{% trans 'Acessando sua conta' %}</h2>
+<form method="POST" action="#" id="formlogin">{% csrf_token %}
+    <div class="panel">
+
+   <p>{% trans 'Informe seu login e sua senha' %}</p>
+
+        <div class="form-group">
+
+
+            <input type="text" class="form-control" id="inputLogin" name="inputLogin" placeholder="Login" autocomplete="off">
+
+        </div>
+
+        <div class="form-group">
+
+            <input type="password" class="form-control" id="inputSenha" name="inputSenha" placeholder="{% trans 'Senha' %}">
+
+        </div>
+{#        <div class="forgot"><a href="reset.html">Forgot password?</a></div>#}
+    </div>
+{#    <input type="submit" value="OO">#}
+</form>
+<a class="btn btn-primary btn-lg rounded-pill" href="#" onclick="acessar();"><i class="fa fa-check"></i>{% trans 'Acessar' %}</a>
+<a class="btn btn-primary btn-lg rounded-pill" href="#" onclick="insertUser();"><i class="fa fa-edit"></i>{% trans 'Cadastrar' %}</a>
+<a class="btn btn-info btn-lg rounded-pill portfolio-modal-dismiss" href="#"><i class="fa fa-close"></i>{% trans 'Cancelar' %}</a>
+<a class="btn btn-primary btn-lg rounded-pill" href="#" onclick="ranking()"><i class="fa fa-check"></i>{% trans 'Ranking' %}</a>

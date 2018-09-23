@@ -1,0 +1,237 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-23 01:09-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\base\models.py:17
+msgid "país"
+msgstr ""
+
+#: .\base\models.py:18
+msgid "países"
+msgstr ""
+
+#: .\base\models.py:26 .\base\models.py:42 .\quiz\models.py:49
+msgid "País"
+msgstr "País"
+
+#: .\base\models.py:32
+#, fuzzy
+#| msgid "Região"
+msgid "região"
+msgstr "región"
+
+#: .\base\models.py:33
+msgid "regiões"
+msgstr "regiones"
+
+#: .\base\models.py:41 .\quiz\models.py:50
+msgid "Região"
+msgstr "Región"
+
+#: .\quiz\models.py:7
+msgid "Easy"
+msgstr "Fácil"
+
+#: .\quiz\models.py:8
+msgid "Medium"
+msgstr "Medio"
+
+#: .\quiz\models.py:9
+msgid "Hard"
+msgstr "Difícil"
+
+#: .\quiz\models.py:13
+msgid "Pergunta e Resposta"
+msgstr "Pregunta y Respuesta"
+
+#: .\quiz\models.py:14
+msgid "Clicar na imagem"
+msgstr "Clic en la imagen"
+
+#: .\quiz\models.py:21
+#, fuzzy
+#| msgid "Category"
+msgid "categoria"
+msgstr "Categoría"
+
+#: .\quiz\models.py:22
+#, fuzzy
+#| msgid "Category"
+msgid "categorias"
+msgstr "Categoría"
+
+#: .\quiz\models.py:30
+msgid "Nome da Categoria"
+msgstr "Nombre de la categoría"
+
+#: .\quiz\models.py:31 .\quiz\models.py:52
+msgid "Imagem"
+msgstr "Imagem"
+
+#: .\quiz\models.py:37
+#, fuzzy
+#| msgid "Pergunta"
+msgid "pergunta"
+msgstr "Pregunta"
+
+#: .\quiz\models.py:45
+msgid "Questão"
+msgstr "Pregunta"
+
+#: .\quiz\models.py:46
+msgid "Nível"
+msgstr "Nivel"
+
+#: .\quiz\models.py:47
+msgid "Tipo de Questão"
+msgstr "Tipo del Pregunta"
+
+#: .\quiz\models.py:48
+#, fuzzy
+#| msgid "Category"
+msgid "Categoria"
+msgstr "Categoría"
+
+#: .\quiz\models.py:51
+msgid "Explicação"
+msgstr "Explicación"
+
+#: .\quiz\models.py:58
+msgid "resposta"
+msgstr "respuesta"
+
+#: .\quiz\models.py:66
+msgid "Pergunta"
+msgstr "Pregunta"
+
+#: .\quiz\models.py:68
+msgid "É correta?"
+msgstr "¿Es correcta?"
+
+#: .\templates\home.html:13 .\templates\home.html:37 .\templates\home.html:75
+msgid "Jogos Amazônicos"
+msgstr "Juegos Amazonicos"
+
+#: .\templates\home.html:45 .\templates\home.html:84
+msgid "Aventuras"
+msgstr "Aventuras"
+
+#: .\templates\home.html:48 .\templates\home.html:124
+msgid "Sobre"
+msgstr "Sobre"
+
+#: .\templates\home.html:51 .\templates\home.html:146
+msgid "Contato"
+msgstr "Contacto"
+
+#: .\templates\home.html:77
+msgid "Uma aventura no conhecimento da Amazônia"
+msgstr "Una aventura en el conocimiento de la Amazonia"
+
+#: .\templates\home.html:91
+msgid "Acesso ao Quiz"
+msgstr "Acceso al Quiz"
+
+#: .\templates\home.html:101
+msgid "Acesso ao Ambiente de Aprendizagem"
+msgstr "Acceso al entorno de aprendizaje"
+
+#: .\templates\home.html:111
+msgid "Acesso ao Jogo"
+msgstr "Acceso al juego"
+
+#: .\templates\home.html:155 .\templates\home.html:156
+msgid "Nome"
+msgstr "Nombre"
+
+#: .\templates\home.html:156
+msgid "Por favor informe seu nome."
+msgstr "Por favor, introduza su nombre"
+
+#: .\templates\home.html:163
+msgid "Por favor informe seu email"
+msgstr "Por favor, introduza su email"
+
+#: .\templates\home.html:169 .\templates\home.html:170
+msgid "Telefone"
+msgstr "Teléfono"
+
+#: .\templates\home.html:170
+msgid "Por favor informe o número de seu telefone"
+msgstr "Por favor, introduza su teléfono"
+
+#: .\templates\home.html:176 .\templates\home.html:177
+msgid "Mensagem"
+msgstr "Mensaje"
+
+#: .\templates\home.html:177
+msgid "Por favor informe uma mensagem."
+msgstr "Por favor, introduza una mensaje"
+
+#: .\templates\home.html:184
+msgid "Enviar Mensagem"
+msgstr "Enviar Mensaje"
+
+#: .\templates\home.html:197
+#, fuzzy
+msgid "Localização"
+msgstr "Localización"
+
+#: .\templates\home.html:202
+msgid "Na Web"
+msgstr "En la Web"
+
+#: .\templates\home.html:232
+msgid "Sobre o evento"
+msgstr "Sobre el evento"
+
+#: .\templates\home.html:233
+msgid "Realizado na tríplice fronteira"
+msgstr "Realizado en la triple frontera"
+
+#: .\templates\home.html:241
+msgid "Hackaton na Fronteira"
+msgstr "Hackaton en la Frontera"
+
+#: .\templates\home.html:263
+#, fuzzy
+#| msgid "Acesso ao Ambiente de Aprendizagem"
+msgid "Ambiente de Aprendizagem"
+msgstr "Acceso al entorno de aprendizaje"
+
+#: .\templates\home.html:285
+msgid "Jogo do Conhecimento"
+msgstr "Juego del Conocimiento"
+
+#: .\templates\home.html:307
+#, fuzzy
+#| msgid "Pergunta e Resposta"
+msgid "Perguntas e Respostas"
+msgstr "Pregunta y Respuesta"
+
+#~ msgid "Category"
+#~ msgstr "Categoría"
+
+#~ msgid "Score"
+#~ msgstr "Score"
+
+#, fuzzy
+#~| msgid "Contato"
+#~ msgid "Contact Me"
+#~ msgstr "Contacto"

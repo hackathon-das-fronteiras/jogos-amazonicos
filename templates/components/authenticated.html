@@ -1,0 +1,11 @@
+{% load static %}{% load i18n %}
+<div>
+    <b>{% trans 'Olá' %} {{ user }}!</b><br>
+
+    <p class="mb-5">
+        {% blocktrans %}Bem vindo ao {{ module }}. Se deseja acessar com outra conta {% endblocktrans %}<a href="#" class="linkauto" hdata="{% url 'logout' %}" onclick="exec_hdata(this, '{{ qmodal }}')">{% trans 'clique aqui' %}</a>.
+    </p>
+    <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#"><i class="fa fa-close"></i>{% trans 'Cancelar' %}</a>
+    <a class="btn btn-primary btn-lg rounded-pill" href="#" onclick="pergunta()"><i class="fa fa-check"></i>{% trans 'Continuar' %}</a>
+    <a class="btn btn-primary btn-lg rounded-pill" href="#" onclick="ranking()"><i class="fa fa-check"></i>{% trans 'Ranking' %}</a>
+</div>

@@ -1,0 +1,11 @@
+{% load static %}{% load i18n %}
+<h4>{% blocktrans %}Parabéns {{ user }}! Você respondeu a todas as perguntas e acertou {{ qtd_user }} de {{ qtd_tot}}!</h4>{% endblocktrans %}
+<br><br>
+<h2>Ranking</h2>
+<hr>
+<ol>
+    {% for u, a in ranking.2 %}
+        <li>{{ u }} - Acerto(s): {{ a }}</li>
+    {% endfor %}
+</ol>
+<a class="btn btn-info btn-lg rounded-pill portfolio-modal-dismiss" href="#"><i class="fa fa-close"></i>{% trans 'Fechar' %}</a>
